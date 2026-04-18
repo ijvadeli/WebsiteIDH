@@ -1,15 +1,15 @@
 ---
-import Bonsai from "./ui/bonsai.astro";
+import SmallProfile from './ui/small-profile.astro';
 ---
 <div class="hero bg-linear-to-b from-base-100 to-base-300 min-h-screen">
-  <div class="hero-content">
+  <div class="hero-content text-center">
     <div>
-      <h1 class="text-7xl sm:text-9xl tracking-tight">IJsbrand<br>v.d. Lindt</h1>
-      <p class="text-2xl py-6 tracking-tight">
+      <h1 class="text-7xl sm:text-9xl tracking-tight py-6">IJsbrand<br>v.d. Lindt</h1>
+      <!-- <p class="text-2xl py-6 tracking-tight">
         "Do you think that's air you're breathing now?"<br><span class="text-sm mono">- Morpheus (The Matrix)</span>
-      </p>
+      </p> -->
+      <SmallProfile />
     </div>
-    <Bonsai />
   </div>
 </div>
 <div class="w-screen absolute bottom-1 justify-center items-center text-center">
