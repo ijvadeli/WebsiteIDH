@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Instrument+Serif:ital@0;1&display=swap');
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: light --default, dark --prefersdark, retro;
+  themes: light --default, dark --prefersdark, fantasy;
 }
 
 h1, h2 {
@@ -9,6 +9,7 @@ h1, h2 {
 }
 h3 {
     font-weight: 600;
+    font-size: 18px;
 }
 
 .fancy {
